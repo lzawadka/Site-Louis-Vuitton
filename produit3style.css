@@ -119,6 +119,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 100;
 }
 
 nav.is-open {
@@ -271,12 +272,7 @@ li:not(:last-child) {
 
 
   body{
-
-    background-image: url(./images/bg-fleur.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color : white;
+    color : black;
   }
 
   .subclass{
@@ -294,13 +290,15 @@ li:not(:last-child) {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color : white;
+  color : black;
 
 }
 
   .content p{
     text-align: left;
-    color: white;
+    color: black;
+    line-height: 4vh;
+    padding-right: 5%;
 
   }
 
@@ -498,7 +496,7 @@ li:not(:last-child) {
   footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color: black;
   padding-top: 7px;
   margin-top: 100px;
