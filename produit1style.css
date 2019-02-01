@@ -206,6 +206,7 @@ nav.is-open .open-icon::after {
 nav.is-open ul {
   transform: none;
   opacity: 1;
+  z-index: -1;
 }
 
 nav:not(.is-open) ul {

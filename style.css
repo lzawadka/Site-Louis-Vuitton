@@ -300,6 +300,7 @@ nav ul:nth-child(1) {
   nav.is-open ul {
     transform: none;
     opacity: 1;
+    z-index: -1;
   }
 }
 
@@ -530,6 +531,7 @@ li:not(:last-child) {
   
   nav.is-open {
     height: 50px;
+    pointer-events: none;
   }
   
   .open {
